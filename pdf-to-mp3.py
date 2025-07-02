@@ -78,15 +78,17 @@ def PdfConverter():
             exit()
 
         # Getting the playback language
-        print('Select playback language: 1. English, 2. Polish, 3. Ukrainian, 4. Keep original.')
+        print('Select playback language: 1. English, 2. Polish, 3. Ukrainian, 4. Norwegian, 5. Keep original.')
+
+
 
         while True:
             language_choice = input('Enter language number: ')
-            if language_choice in ['1', '2', '3', '4']:
+            if language_choice in ['1', '2', '3', '4', '5']:
                 break
             print('Incorrect choice. Try again.')
-        language_map = {'1': 'en', '2': 'pl', '3': 'uk'}
-        language = language_map[language_choice] if language_choice != '4' else None
+        language_map = {'1': 'en', '2': 'pl', '3': 'uk', '4': 'no'}
+        language = language_map[language_choice] if language_choice != '5' else None
 
 
         # Open PDF file
