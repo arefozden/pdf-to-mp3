@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>PDF to MP3 Converter</h1>
+  <h1>PDF to MP3 Converter-with Norwegian</h1>
 </div>
 
 <div align="justify">
